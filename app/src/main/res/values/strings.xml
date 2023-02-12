@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tasty food</string>
+    <string name="main_content">"Main content "</string>
+    <string name="random_food">Tasty food</string>
+    <string name="tasty_food_log">Let\'s go eat!</string>
+    <string name="enter_yummy">Enter the name of the yummy</string>
+    <string name="name_of_category">Name of category</string>
+    <string name="category_food_name">Salad</string>
+    <string name="name_of_food_example">Salad with something</string>
+    <string name="choose_category">Choose a category</string>
+    <string name="favourite_food">Favourite</string>
+    <string name="get_more_information">More…</string>
+    <string name="cancel">Cancel</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="failed_to_connect">Failed to connect</string>
+    <string name="network_error_description">Unfortunately, your phone is not connected to the network. You can turn on the network or try to connect again</string>
+    <string name="ok">OK</string>
+    <string name="network_is_unavailable">Network is unavailable</string>
+    <string name="food_not_found">Food not found</string>
+</resources>

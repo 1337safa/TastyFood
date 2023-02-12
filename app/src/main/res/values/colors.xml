@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--My colors:-->
+    <color name="dark">#333333</color>
+    <color name="dark_light">#434343</color>
+    <color name="green">#05DC54</color>
+    <color name="light_green">#07E19B</color>
+    <color name="light_gray">#F4F4F4</color>
+    <color name="gray">#737373</color>
+    <color name="back_for_edit_text">#D1D1D1</color>
+    <color name="back_for_rcv_item_food_category">#F4F3F3</color>
+    <color name="back_for_rcv_item_food_example">#F4F3F3</color>
+    <color name="transparent">#00F4F3F3</color>
+    <color name="black_gray">#A5A5A5</color>
+    <color name="white_gray">#E6E6E6</color>
+    <color name="red">#FF0000</color>
+
+</resources>

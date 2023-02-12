@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android my project/Android studio me release project/Release/Tasty food/App/app/src/main/res/drawable/background_bottom_nav_view.xml" value="0.1875" />
+        <entry key="..\:/Android my project/Android studio me release project/Release/Tasty food/App/app/src/main/res/drawable/ic_random_food.xml" value="0.1875" />
+        <entry key="..\:/Android my project/Android studio me release project/Release/Tasty food/App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android my project/Android studio me release project/Release/Tasty food/App/app/src/main/res/layout/fragment_main_content.xml" value="0.16666666666666666" />
+        <entry key="..\:/Android my project/Android studio me release project/Release/Tasty food/App/app/src/main/res/layout/rcv_item_food_by_category.xml" value="0.1" />
+        <entry key="..\:/Android my project/Android studio me release project/Release/Tasty food/App/app/src/main/res/layout/rcv_item_food_category.xml" value="0.17916666666666667" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/activity_main_bottom_nav_selector.xml" value="0.13" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/background_bottom_nav_view.xml" value="0.1525" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/custom_search.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_bookmark_food.xml" value="0.1" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_boomark_food.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_category.xml" value="0.1525" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_favorite.xml" value="0.1525" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_favote_food.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_food_bookmark.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_food_home.xml" value="0.1525" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_house.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_local_dining_food.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_main_food_dinning.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_main_food_lunch.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_random_food.xml" value="0.158" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/ic_search.xml" value="0.118" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/rcv_item_food_category_background.xml" value="0.1135" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/drawable/rcv_item_food_example_background.xml" value="0.1135" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/layout/fragment_main_content.xml" value="0.1" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/layout/rcv_item_food_by_category.xml" value="0.13518518518518519" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/layout/rcv_item_food_category.xml" value="0.5" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/layout/rcv_item_food_example.xml" value="0.3333333333333333" />
+        <entry key="..\:/Work/Android studio my project/Release/Tasty food/App/app/src/main/res/menu/activity_main_bottom_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

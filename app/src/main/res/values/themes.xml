@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.TastyFood" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green</item>
+        <item name="colorSecondaryVariant">@color/green</item>
+        <item name="colorOnSecondary">@color/green</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="circle_image_view" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    
+    <style name="rounded_corners_twenty_four_dp">
+        <item name="cornerSize">24dp</item>
+    </style>
+    
+    <style name="twenty_four_corners_image_view" parent="">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="gray_stroke_color">
+        <item name="strokeColor">@color/gray</item>
+    </style>
+
+</resources>    
