@@ -3,6 +3,7 @@ package com.example_tastyfood_my_release_project_println_out_systems_food_tasty.
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Toast
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavOptions
@@ -12,13 +13,13 @@ import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.R
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.databinding.ActivityMainBinding
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.domain.model.food.food_by_category.FoodByCategoryItem
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.domain.usecase.local_database.sql.FavouriteFoodByCategoryInLocalDataBaseUseCase
-import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FavouriteFoodDb
+import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FoodDb
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.view_model.VmMainActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class MainActivity(): AppCompatActivity(), FavouriteFoodDb {
+class MainActivity(): AppCompatActivity(), FoodDb {
 
     private var _binding: ActivityMainBinding? = null
     private val binding get() = _binding!!
@@ -76,15 +77,29 @@ class MainActivity(): AppCompatActivity(), FavouriteFoodDb {
     }
 
     override fun insertFoodByCategoryToLocalDatabase(foodByCategoryItem: FoodByCategoryItem) {
-        vmMainActivity.insertFoodByCategory(foodByCategoryItem)
-    }
 
+        Toast.makeText(this, resources.getString(R.string.saved),
+        Toast.LENGTH_SHORT).show()
+        vmMainActivity.insertFoodByCategory(foodByCategoryItem)
+
+    }
+    
     override fun getFavouriteFoodByCategoryFromLocalDatabase(): ArrayList<FoodByCategoryItem>? {
         return favouriteFoodByCategoryUseCase.getFavouriteFoodByCategory()
     }
 
     override fun deleteFavouriteFoodByDatabaseFoodIdFromLocalDatabase(databaseIdFood: String?) {
-        return vmMainActivity.deleteFavouriteFoodByDatabaseFoodId(databaseIdFood)
+
+        Toast.makeText(this, resources.getString(R.string.deleted),
+        Toast.LENGTH_SHORT).show()
+        vmMainActivity.deleteFavouriteFoodByDatabaseFoodId(databaseIdFood)
+
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
+    }
+
+    /* @Made by 1337safa */
 }

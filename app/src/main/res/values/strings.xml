@@ -18,4 +18,6 @@
     <string name="ok">OK</string>
     <string name="network_is_unavailable">Network is unavailable</string>
     <string name="food_not_found">Food not found</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Removed</string>
 </resources>

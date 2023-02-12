@@ -24,7 +24,7 @@ import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.d
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.domain.model.food.food_by_name.FoodByNameItem
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.domain.model.food.food_category.AllFoodCategoriesItem
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.domain.usecase.network.okhttp.FoodByNameFromNetworkUseCase
-import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FavouriteFoodDb
+import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FoodDb
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.fragment.for_screen.alert.RcvAdapterSearchFoodByNameAlertDialog
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.fragment.for_screen.alert.interfaces.ClickOnSomeFoodByName
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.fragment.for_screen.view_model.VmMainContent
@@ -67,7 +67,7 @@ class FragmentMainContent(): BaseFragment(), ClickOnFoodByCategoryItemAdapter, C
     }
 
     private var alertDialogForShowFoodByIdOrNull: AlertDialog? = null
-    private var activityAboutFavouriteFoodSqlDatabase: FavouriteFoodDb? = null
+    private var activityAboutFavouriteFoodSqlDatabase: FoodDb? = null
 
     private var isNetworkAvailable: Boolean = false
 

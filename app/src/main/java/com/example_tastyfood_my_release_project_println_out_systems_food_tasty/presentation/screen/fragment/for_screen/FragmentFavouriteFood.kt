@@ -15,7 +15,7 @@ import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.c
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.core.getActivityAboutFavouriteFoodSqlDatabase
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.databinding.FragmentFavouriteFoodBinding
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.domain.model.food.food_by_category.FoodByCategoryItem
-import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FavouriteFoodDb
+import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FoodDb
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.fragment.recyclerview.RcvAdapterFavouriteFood
 import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.fragment.recyclerview.interfaces.ClickOnFavouriteFoodItem
 import kotlinx.coroutines.flow.collect
@@ -30,7 +30,7 @@ class FragmentFavouriteFood(): BaseFragment(), ClickOnFavouriteFoodItem {
         RcvAdapterFavouriteFood(this)
     }
 
-    private var activityAboutFavouriteFoodSqlDatabase: FavouriteFoodDb? = null
+    private var activityAboutFavouriteFoodSqlDatabase: FoodDb? = null
     private var isNetworkAvailable: Boolean = false
 
     private var strNetworkIsUnavailable = ""

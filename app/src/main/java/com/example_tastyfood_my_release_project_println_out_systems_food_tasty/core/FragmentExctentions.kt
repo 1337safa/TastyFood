@@ -6,10 +6,10 @@ import android.util.Log
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
-import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FavouriteFoodDb
+import com.example_tastyfood_my_release_project_println_out_systems_food_tasty.presentation.screen.activity.action_for_activity.interfaces.FoodDb
 
-fun Fragment.getActivityAboutFavouriteFoodSqlDatabase(): FavouriteFoodDb {
-    return requireActivity() as FavouriteFoodDb
+fun Fragment.getActivityAboutFavouriteFoodSqlDatabase(): FoodDb {
+    return requireActivity() as FoodDb
 }
 
 fun navigateToFragmentByAction(action: Int, fragment: Fragment) {
